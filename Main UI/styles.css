@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+body{
+    /* background-image: url('images/marcelo-leal-6pcGTJDuf6M-unsplash.jpg'); */
+    
+}
+.top{
+    background-image: url('images/marcelo-leal-6pcGTJDuf6M-unsplash.jpg');
+    
+}
+.image-top{
+     
+    max-width: 100%;   
+
+}
+
+.white-link{
+    font-weight: bold;
+    color: rgba(255,255,255,100) !important;
+
+}
+h1{
+    padding-bottom: 2.5rem;
+    font-size: 3.5rem;
+    font-family: 'Varela Round', sans-serif;
+}
+.card-header{
+    text-align: center;
+    font-size: 2.5rem;
+}
+.card-body{
+    text-align: center;
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+ }
+
+ footer
+ {
+     /* background-color: #0d6efd; */
+     background-image: url('images/marcelo-leal-6pcGTJDuf6M-unsplash.jpg');
+     color: white;
+     padding:2rem 0 2rem 0;
+    
+ }
+
+ .fab{
+    padding:0 2rem 0 2rem;
+    color: white;
+}
+  .fab:hover{
+      color: #4D96FF;
+  }
