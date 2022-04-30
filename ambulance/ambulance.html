@@ -66,10 +66,10 @@
       Distance
     </div>
     <div class="card-body">
-      <h5 class="card-title">Hospital Name</h5>
+      <h5 class="card-title">Hospital A</h5>
       <p class="card-text">
-        Address
-      <p>Vacant beds: <span style="color:red">2</span></p>
+      <p>Vacant beds: <span id="box0" style="color:skyblue"></span></p>
+      Ambulance: <span id="box1" style="color:green"></span></p>
       </p>
       <a href="#" class="btn btn-primary">Call</a>
     </div>
@@ -84,10 +84,10 @@
       Distance
     </div>
     <div class="card-body">
-      <h5 class="card-title">Hospital Name</h5>
+      <h5 class="card-title">Hospital B</h5>
       <p class="card-text">
-        Address
-      <p>Vacant beds: <span style="color:rgb(97, 230, 60)">29</span></p>
+      <p>Vacant beds: <span style="color:sky skyblue">0</span></p>
+      Ambulance: <span style="color: red;">No</span>
       </p>
       <a href="#" class="btn btn-primary">Call</a>
     </div>
@@ -102,10 +102,10 @@
       Distance
     </div>
     <div class="card-body">
-      <h5 class="card-title">Hospital Name</h5>
+      <h5 class="card-title">Hospital C</h5>
       <p class="card-text">
-        Address
-      <p>Vacant beds: <span style="color:rgb(97, 230, 60)">42</span></p>
+      <p>Vacant beds: <span style="color:sky skyblue">0</span></p>
+      Ambulance: <span style="color: red;">No</span>
       </p>
       <a href="#" class="btn btn-primary">Call</a>
     </div>
@@ -120,10 +120,10 @@
       Distance
     </div>
     <div class="card-body">
-      <h5 class="card-title">Hospital Name</h5>
-      <p class="card-text">
-        Address
-      <p>Vacant beds: <span style="color:rgb(97, 230, 60)">65</span></p>
+      <h5 class="card-title">Hospital D</h5>
+            <p class="card-text">
+      <p>Vacant beds: <span style="color:sky skyblue">2</span></p>
+      Ambulance: <span style="color: red;">No</span>
       </p>
       <a href="#" class="btn btn-primary">Call</a>
     </div>
@@ -138,10 +138,10 @@
       Distance
     </div>
     <div class="card-body">
-      <h5 class="card-title">Hospital Name</h5>
-      <p class="card-text">
-        Address
-      <p>Vacant beds: <span style="color:red">10</span></p>
+      <h5 class="card-title">Hospital E</h5>
+            <p class="card-text">
+      <p>Vacant beds: <span style="color:sky skyblue">0</span></p>
+      Ambulance: <span style="color: green;">Yes</span>
       </p>
       <a href="#" class="btn btn-primary">Call</a>
     </div>
@@ -153,53 +153,119 @@
   <!-- footer -->
 
 
-  <section class="footer" style="background-image: url('/ambulance/background.jpg'); padding: 2rem 0 2rem 0;" >
-    <footer
-  class="page-footer font-small cyan darken-3"
-  
->
-<div class="row">
-  <div class="col">
-    <div style="color: white;">
-  © 2022 Copyright:
-<a href="/"><span style="color:white">medi<span style="color:#06113C">Partner</span></span>r</a>
-</div>
-</div>
+  <section class="footer" style="background-image: url('/ambulance/background.jpg'); padding: 2rem 0 2rem 0;">
+    <footer class="page-footer font-small cyan darken-3">
+      <div class="row">
+        <div class="col">
+          <div style="color: white;">
+            © 2022 Copyright:
+            <a href="/"><span style="color:white">medi<span style="color:#06113C">Partner</span></span>r</a>
+          </div>
+        </div>
 
 
-  <div class="col ">
-    <a href="/" style="padding-right: 2rem;">
-      <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-    </a>
+        <div class="col ">
+          <a href="/" style="padding-right: 2rem;">
+            <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
 
-    <a href="/" style="padding-right: 2rem;">
-      <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-    </a>
+          <a href="/" style="padding-right: 2rem;">
+            <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
 
-    <a href="/" style="padding-right: 2rem;">
-      <i class="fab fa-google-plus-g fa-lg white-text mr-md-5 mr-3 fa-2x">
-      </i>
-    </a>
+          <a href="/" style="padding-right: 2rem;">
+            <i class="fab fa-google-plus-g fa-lg white-text mr-md-5 mr-3 fa-2x">
+            </i>
+          </a>
 
-    <a href="/" style="padding-right: 2rem;">
-      <i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x">
-      </i>
-    </a>
+          <a href="/" style="padding-right: 2rem;">
+            <i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x">
+            </i>
+          </a>
 
-    <a href="/" style="padding-right: 2rem;">
-      <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-    </a>
+          <a href="/" style="padding-right: 2rem;">
+            <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
 
-  </div>
-</div>
+        </div>
+      </div>
 
-</footer>
+    </footer>
   </section>
 
 
 
 
-  
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.7.0/firebase-app.js";
+    import {
+      getDatabase,
+      ref,
+      child,
+      onValue,
+      get,
+    } from "https://www.gstatic.com/firebasejs/9.7.0/firebase-database.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+
+    // Your web app's Firebase configuration
+    const firebaseConfig = {
+      apiKey: "AIzaSyBzOdtpssQrMikheF-aWxN-BaBdHias0v4",
+      authDomain: "medipartner-86f32.firebaseapp.com",
+      databaseURL: "https://medipartner-86f32-default-rtdb.firebaseio.com",
+      projectId: "medipartner-86f32",
+      storageBucket: "medipartner-86f32.appspot.com",
+      messagingSenderId: "948043333713",
+      appId: "1:948043333713:web:933c17a390dc17156df870",
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+
+    const db = getDatabase();
+
+    var stdNo = 0;
+    var tbed = document.getElementById("box0");
+    var tamb = document.getElementById("box1");
+    function AddItemToTable(beds, ambulance) {
+      let bs = document.createElement("span");
+      let as = document.createElement("span");
+
+      bs.innerHTML = beds;
+      as.innerHTML = ambulance;
+
+      tbed.appendChild(bs);
+      tamb.appendChild(as);
+    }
+
+    function AddAllItemsToTable(TheHospital) {
+      stdNo = 0;
+      tbed.innerHTML = "";
+      tamb.innerHTML = "";
+      TheHospital.forEach((element) => {
+        AddItemToTable(
+          element.beds,
+          element.ambulance,
+        );
+      });
+    }
+
+    function GetAllDataRealTime() {
+      const dbRef = ref(db, "Hospital0");
+      onValue(dbRef, (snapshot) => {
+        var hospital = [];
+        snapshot.forEach((childSnapshot) => {
+          hospital.push(childSnapshot.val());
+        });
+        AddAllItemsToTable(hospital);
+      });
+    }
+    window.onload = GetAllDataRealTime;
+  </script>
+
+
+
 </body>
 
 </html>
