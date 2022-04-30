@@ -1,0 +1,24 @@
+.top{
+    background-image: url('/firstaid/Images/marcelo-leal-6pcGTJDuf6M-unsplash.jpg');
+    
+}
+.fab{
+    padding:0 2rem 0 2rem;
+    color: white;
+}
+.fab:hover{
+      color: #4D96FF;
+  }
+  .card{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    backdrop-filter: blur(10px);
+}  
+.card-c{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.card-c:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+ }
