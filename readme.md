@@ -1,5 +1,4 @@
-# Hack-Nation 
-# NIRMAN
+#MEDIPARTNER
 
 
 ## Problem Statement
@@ -36,27 +35,20 @@ https://github.com/Mic-360/medi_pep.git
 ## Misc
 
 ### Mentors :
-
-- Siddharth Bhatter
-- Nandan Singh
 - Saswat Samal
 
 ## Team Details
 
 Archan Kumar Bose - UI/UX Designer
 
-Bhaumik Singh - Backend | Flutter
+Bhaumik Singh - Backend 
 
-Puru Aniket - FrontEnd | DataAnalyst
-
-Vineet Jana - FrontEnd | Presenter
+Vineet Jana - FrontEnd 
 
 ## Team members github links
 
 #### Archan Kumar Bose - [Github](https://github.com/Archan2021)
 
 #### Bhaumik Singh - [Github](https://github.com/Mic-360)
-
-#### Puru Aniket - [Github](https://github.com/finesse-2823)
 
 #### Vineet Jana - [Github](https://github.com/vini-j)
