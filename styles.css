@@ -56,3 +56,6 @@ h1{
   .fab:hover{
       color: #4D96FF;
   }
+  a {
+      text-decoration: none;
+  }
