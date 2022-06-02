@@ -54,6 +54,8 @@ Bhaumik Singh - Backend
 
 Vineet Jana - FrontEnd
 
+Aniket Puru - Data analyst
+
 ## Team members github links
 
 #### Archan Kumar Bose - [Github](https://github.com/Archan2021)
