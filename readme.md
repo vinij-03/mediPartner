@@ -60,4 +60,6 @@ Vineet Jana - FrontEnd
 
 #### Bhaumik Singh - [Github](https://github.com/Mic-360)
 
-#### Vineet Jana - [Github](https://github.com/vini-j)
+#### Vineet Jana - [Github](https://github.com/vinij-03)
+
+#### Aniket Puru - [Github](https://github.com/finesse-2823)
