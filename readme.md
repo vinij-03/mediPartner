@@ -17,7 +17,7 @@ We created a website as well as cross platform mobile app to guide people throug
 - Website
 
 ```html
-https://github.com/Mic-360/medipartner/releases/tag/v0.1
+https://vinij-03.github.io/mediPartner/
 ```
 
 - Mobile App
@@ -40,28 +40,12 @@ https://github.com/Mic-360/medipartner/releases/tag/v0.1
 
 ### [JavaScript](https://www.w3schools.com/js/)
 
-## Misc
 
-### Mentors :
+## Contributers
 
-- Saswat Samal
+Archan Kumar Bose
 
-## Team Details
+Bhaumik Singh 
 
-Archan Kumar Bose - UI/UX Designer
+Aniket Puru 
 
-Bhaumik Singh - Backend
-
-Vineet Jana - FrontEnd
-
-Aniket Puru - Data analyst
-
-## Team members github links
-
-#### Archan Kumar Bose - [Github](https://github.com/Archan2021)
-
-#### Bhaumik Singh - [Github](https://github.com/Mic-360)
-
-#### Vineet Jana - [Github](https://github.com/vinij-03)
-
-#### Aniket Puru - [Github](https://github.com/finesse-2823)
