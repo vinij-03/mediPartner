@@ -87,7 +87,7 @@ function getData() {
 }
 getData()
 async function findDistance(p1, p2) {
-    let url = "http://router.project-osrm.org/route/v1/driving/" + p1[1] + "," + p1[0] + ";" + p2[1] + "," + p2[0]
+    let url = "https://router.project-osrm.org/route/v1/driving/" + p1[1] + "," + p1[0] + ";" + p2[1] + "," + p2[0]
     let response = await (await fetch(url)).json()
     console.log(response['routes'][0]['distance'] + 'm')
     return response['routes'][0]['distance']
