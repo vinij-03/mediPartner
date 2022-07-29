@@ -41,7 +41,7 @@ https://github.com/Mic-360/medipartner/releases/tag/v0.1
 ### [JavaScript](https://www.w3schools.com/js/)
 
 
-## Contributers
+## Team
 
 Archan Kumar Bose
 
